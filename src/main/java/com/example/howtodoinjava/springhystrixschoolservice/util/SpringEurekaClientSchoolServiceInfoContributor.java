@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SpringEurekaClientSchoolServiceInfoContributor implements InfoContributor {
 
+	//http://localhost:9098/info use this in the browser to access the below method to get the details of this servivce
 	@Override
 	public void contribute(Info.Builder builder) {
 		builder.withDetail("details",
